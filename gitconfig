@@ -1,13 +1,13 @@
 [user]
-	name = Josh Betz
-	email = j@joshbetz.com
+	name = Gabriel Sambarino
+	email = gabriel.sambarino@gmail.com
 	signingkey = 0x002FFC2227CFAA7D
 [github]
-	user = joshbetz
+	user = chrean
 [alias]
 	svn-diff = !git-svn-diff
 [core]
-	excludesfile = /Users/josh/.gitignore
+	excludesfile = /Users/quasistar/.gitignore
 [push]
 	default = current
 [filter "media"]
