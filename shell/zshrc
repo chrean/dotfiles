@@ -8,6 +8,20 @@ setopt EXTENDED_GLOB
 # emacs mode
 bindkey -e
 
+# TLS-related functions
+
+crtmod () {
+	openssl x509 -noout -modulus -in $1
+}
+
+csrmod () {
+	openssl req -noout -modulus -in $1
+}
+
+keymod () {
+	openssl req -noout -modulus -in $1
+}
+
 # tab completion
 autoload -Uz compinit
 setopt COMPLETE_IN_WORD
