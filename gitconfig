@@ -1,7 +1,7 @@
 [user]
 	name = Gabriel Sambarino
-	email = gabriel.sambarino@gmail.com
-	signingkey = 0x002FFC2227CFAA7D
+	email = gabriel.sambarino at gmail dot com
+	signingkey = <mykey>
 [github]
 	user = chrean
 [alias]
